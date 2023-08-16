@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+TC">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Noto Serif TC", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+    class="w3-bar-item w3-button"> ✕ 關閉選單 Close Menu</a>
+    <a href="postcard ec.html" onclick="w3_close()" class="w3-bar-item w3-button"> ☺ 首頁 HOME</a>
+    <a href="postcard ec9.html" onclick="w3_close()" class="w3-bar-item w3-button"> ☺ 日本-九州</a>
+    <a href="postcard ec10.html" onclick="w3_close()" class="w3-bar-item w3-button"> ☺ 日本-本州</a>
+  </nav>
+  
+  <!-- Top menu -->
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-right w3-padding-16"></div>
+      <center>
+        <img src="ima/ja10.jpg" alt="brand" style=" padding:10px"  width="12%" valign= middle >
+        </center>
+    </div>
+  </div>
+    
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+  
+      <!-- About Section -->
+    <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large ">
+       <img src="ima/ja4.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+      </div>
+  
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">大阪城/おおさかじょう</h1><br>
+
+        <span style='line-height:40px;font-size: 14pt;'>
+        <h4 class="w3-center">位於日本大阪市中央區（古屬攝津國東成郡）的大阪城公園內，為大阪名勝之一，和<span class="w3-tag w3-light-grey">名古屋城</span>、<span class="w3-tag w3-light-grey"></span>姬路城</span>並列日本歷史上的三名城，別名「金城」或「錦城」。</h4>
+        <h4 class="w3-center">在天下統一的桃山時代是豐臣秀吉的居城、豐臣政權的中心。後來德川家康以兩次大坂之役（冬之陣、夏之陣）消滅了豐臣家，此後大坂城成為江戶幕府控制西日本大名的重要據點。</h4>
+        <h4 class="w3-center">城郭含城下町等周長約7.8公里，與江戶城初期（內郭）相當（江戶後期含城下町外郭周長約15.8ｋｍ）。在豐臣時代，大坂城曾經是全日本規模最大的城郭。</h4>
+        </span>
+
+      </div>
+    </div>
+     
+    <hr>
+  
+    
+    <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>聯絡我們 Contact</h3>
+      <p>© POSTCARD 2023<br>
+       Instagram / ＠POSTCARD<br>
+        Official Line / ＠POSTCARD<br>
+        Email / POSTCARD@gmail.com
+      </p>
+      <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
+    </div>
+  
+    <div class="w3-third">
+      <h3>常見問題 FAQs</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="ima/ja14.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class= "w3-light-grey">TOP1. <br>我已完成匯款，請問有收到嗎？</span><br>
+          <span>2.為什麼我的帳號不能使用、無法購買？<br></span>
+          <span>3.我的訂單怎麼被作廢了？</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>會員專區Member Area</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="ima/ja15.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class= "w3-light-grey">TOP1. SVIP</span><br>
+          <span>2.VIP<br></span>
+          <span>3.生日禮金</span>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
